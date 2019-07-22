@@ -1,0 +1,98 @@
+body{
+  font-family: 'Rajdhani', sans-serif;
+  margin: 6rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("../img/back-ground.JPG"); */
+  background-size:100% auto;
+  transition-duration: 1s;
+ }
+
+h1{
+  text-align: center;
+  font-size: 10vw;
+  font-weight: bold;
+}
+
+ul{
+  list-style: none;
+}
+.button{
+   border-radius: 0.5rem;
+}
+
+.main-body{
+  margin: 0 auto;
+}
+
+.follow-list{
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top:  2vw;
+  display: flex;
+  justify-content: center;
+  color: White;
+}
+
+.follow-list li{
+  padding: 1rem;
+  margin: 0 3vw;
+  text-align: center;
+  width: 16rem;
+  height: 6rem;
+  transition-duration: 0.8s;
+}
+
+.follow-list li:hover{
+  filter: grayscale(100%);
+  transition-duration: 0.8s
+}
+
+.follow-list a{
+  text-decoration: none;
+  color: White;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow-list p{
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.follow-twitter{
+  background-color:#00acee;
+}
+.follow-facebook{
+  background-color:	#3b5998;
+}
+.twitter-icon{
+  width: 4rem;
+  height: 4rem;
+}
+.facebook-icon{
+  width: 2.6rem;
+}
+
+@media all and (max-width: 981px){
+  .follow-list{
+    font-size: 2.6vw;
+  }
+
+  .follow-list li{
+    padding: 1.6vw;
+    margin: 0 3vw;
+    text-align: center;
+    width: 25vw;
+    height: 10vw;
+  }
+  .twitter-icon{
+    width: 6vw;
+    height: 6vw;
+  }
+  .facebook-icon{
+    width: 4vw;
+  }
+}
