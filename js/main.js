@@ -14,3 +14,15 @@ $(window).scroll(function() {
     header.removeClass(adclass);
   }
 });
+
+var getMainMenuEls = document.getElementsByClassName('menu-list_button');
+var clickMainMenuHandler = function(resp) {
+  for (var getMainMenuEl of getMainMenuEls) {
+    getMainMenuEl.classList.remove('menu-list_button__active');
+  }
+  console.log(resp);
+  resp.target.classList.add('menu-list_button__active');
+};
+for (var getMainMenuEl of getMainMenuEls) {
+  getMainMenuEl.addEventListener('click', clickMainMenuHandler);
+}
