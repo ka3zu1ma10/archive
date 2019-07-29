@@ -46,7 +46,7 @@
         <h2>My Photolist</h2>
         <ul>
           <?php
-              $imagedir = opendir("images/img-list/mitaka-20190616");
+              $imagedir = opendir("./images/img-list/mitaka-20190616");
               while (false !== ($file[] = readdir($imagedir)));
               closedir($imagedir);
               natsort($file);
@@ -58,6 +58,19 @@
               }
             }
 
+          ?>
+          <?php
+          $imagedir = opendir("./images/img-list/mitaka-20190616/");// 開けてる
+          while (false !== ($file[] = readdir($imagedir)));//全部ぶち込んでる
+          closedir($imagedir);// 終わったら閉じましょう
+          natsort($file);// 並び替え
+          reset($file);// 最初のファイルを指定した方がいいらしい
+          $reverse = array_reverse($file, true);// 何やってるかわかってない
+          while (false !== ($jpg = each($reverse))){
+          if (preg_match ("|.jpg$|", $jpg[1])) {
+            print "<li><a href='./images/img-list/mitaka-20190616/" . $jpg[1] . "' data-lightbox='image-1'><img class='images' src='./images/img-list/mitaka-20190616/" . $jpg[1] . "'></a></li>";
+          }
+          }
           ?>
         </ul>
       </section>
