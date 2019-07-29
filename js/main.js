@@ -33,4 +33,4 @@ var clickMainMenuHandler = function(resp) {
 };
 for (var getMainMenuEl of getMainMenuEls) {
   getMainMenuEl.addEventListener('click', clickMainMenuHandler);
-}
+};
