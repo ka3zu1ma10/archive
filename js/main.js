@@ -15,15 +15,6 @@ $(window).scroll(function() {
   }
 });
 
-
-
-var mainBodyEls = {
-  "wellcomeEls": "<?php include ('wellcom.html'); ?>",
-  "photosEls": "<?php include ('phots.php'); ?>",
-  "designsEls": "<?php include ('designs.php'); ?>",
-  "aboutmeEls": "<?php include ('aboutme.html'); ?>"
-};
-
 var getMainMenuEls = document.getElementsByClassName('menu-list_button');
 var getMainBodyEls = document.getElementById('main-body');
 var clickMainMenuHandler = function(resp) {
@@ -34,7 +25,7 @@ var clickMainMenuHandler = function(resp) {
 
   resp.target.classList.add('menu-list_button__active');
   var activBodyTag = resp.target.value + 'Els';
-  var node = document.createTextNode(mainBodyEls[activBodyTag]);
+  var node = document.createTextNode(window.mainBodyEls[activBodyTag]);
   getMainBodyEls.appendChild(node);
 };
 for (var getMainMenuEl of getMainMenuEls) {
