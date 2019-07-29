@@ -46,10 +46,10 @@
         <h2>My Photolist</h2>
         <ul>
           <?php
-          foreach(glob('./images/*') as $file){
+          foreach(glob('./images/imag-list/*') as $file){
             if(is_file($file)){
-              echo htmlspecialchars($file);
-              $imagedir = opendir("./images/top-image/");
+              print "<p>$file</p>";
+              $imagedir = opendir(htmlspecialchars($file));
               while (false !== ($file[] = readdir($imagedir)));
               closedir($imagedir);
               natsort($file);
