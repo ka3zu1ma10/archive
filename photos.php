@@ -27,9 +27,9 @@
     natsort($file);
     reset($file);
     $reverse = array_reverse($file, true);
-    while (false !== ($jpg = each($reverse))){
-    if (preg_match ("|.jpg$|", $jpg[1])) {
-      print "<li class='photos-photolist'><a href='./images/img-list/okutama-20181125/" . $jpg[1] . "' data-lightbox='image-1'><img class='images' src='./images/img-list/okutama-20181125/" . $jpg[1] . "'></a></li>";
+    while (false !== ($jpg2 = each($reverse))){
+    if (preg_match ("|.jpg$|", $jpg2[1])) {
+      print "<li class='photos-photolist'><a href='./images/img-list/okutama-20181125/" . $jpg2[1] . "' data-lightbox='image-1'><img class='images' src='./images/img-list/okutama-20181125/" . $jpg2[1] . "'></a></li>";
     }
     }
     ?>
@@ -44,9 +44,9 @@
     natsort($file);
     reset($file);
     $reverse = array_reverse($file, true);
-    while (false !== ($jpg = each($reverse))){
-    if (preg_match ("|.jpg$|", $jpg[1])) {
-      print "<li class='photos-photolist'><a href='./images/img-list/others/" . $jpg[1] . "' data-lightbox='image-1'><img class='images' src='./images/img-list/others/" . $jpg[1] . "'></a></li>";
+    while (false !== ($jpg3 = each($reverse))){
+    if (preg_match ("|.jpg$|", $jpg3[1])) {
+      print "<li class='photos-photolist'><a href='./images/img-list/others/" . $jpg3[1] . "' data-lightbox='image-1'><img class='images' src='./images/img-list/others/" . $jpg3[1] . "'></a></li>";
     }
     }
     ?>
