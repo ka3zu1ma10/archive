@@ -58,7 +58,7 @@
   margin: 50px 0;
 }
 
-#main-area #main-body #wellcom .main-body--activ {
+#main-area #main-body #wellcom.main-body--activ {
   display: flex;
 }
 
