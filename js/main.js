@@ -26,7 +26,7 @@ var clickMainMenuHandler = function(resp) {
   for (var getMainMenuEl of getMainMenuEls) {
     getMainMenuEl.classList.remove('menu-list_button__active');
   }
-  getMainBodyEls.appendChild('');
+  getMainBodyEls.removeChild(getMainBodyEls.firstElementChild);
   resp.target.classList.add('menu-list_button__active');
   var activBodyTag = resp.target.value + 'Els';
   getMainBodyEls.appendChild(activBodyTag);
