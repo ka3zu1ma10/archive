@@ -22,7 +22,7 @@ var mainBodyEls = {
   "photosEls": "<?php include ('phots.php'); ?>",
   "designsEls": "<?php include ('designs.php'); ?>",
   "aboutmeEls": "<?php include ('aboutme.html'); ?>"
-}
+};
 
 var getMainMenuEls = document.getElementsByClassName('menu-list_button');
 var getMainBodyEls = document.getElementById('main-body');
@@ -34,6 +34,7 @@ var clickMainMenuHandler = function(resp) {
 
   resp.target.classList.add('menu-list_button__active');
   var activBodyTag = resp.target.value + 'Els';
+  console.log(activBodyTag);
   getMainBodyEls.appendChild(mainBodyEls[activBodyTag]);
 };
 for (var getMainMenuEl of getMainMenuEls) {
