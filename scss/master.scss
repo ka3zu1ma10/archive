@@ -50,14 +50,11 @@
   }
 
   #main-body {
-    section {
-      display: none;
-    }
-
     #wellcom {
-      &.main-body--activ {
-        display: flex;
+      &.main-body--noneactiv {
+        display: none;
       }
+      display: flex;
       // 縦に積む
       flex-direction: column;
       // 中央寄せ
@@ -121,9 +118,10 @@
     }
 
     #photos {
-      &.main-body--activ {
-        display: flex;
+      &.main-body--noneactiv {
+        display: none;
       }
+      display: flex;
       // 縦に積む
       flex-direction: column;
       // 中央寄せ

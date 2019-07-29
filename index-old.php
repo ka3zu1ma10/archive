@@ -24,7 +24,7 @@
       </ul>
     </menu>
     <article id="main-body">
-      <section id="wellcom" class="main-body--activ">
+      <section id="wellcom">
         <h2>WELLCOM<br>Kazuma Saitoh Pages</h2>
         <section>
           <h3>Are you sure you want to follow me</h3>
@@ -44,7 +44,7 @@
           </ul>
         </section>
       </section>
-      <section id="photos">
+      <section id="photos" class="main-body--noneactiv">
         <h2>My Photolist</h2>
         <h3>mitaka</h3>
         <ul class="photos-photolists">

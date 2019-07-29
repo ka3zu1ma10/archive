@@ -48,11 +48,8 @@
   }
 }
 
-#main-area #main-body section {
-  display: none;
-}
-
 #main-area #main-body #wellcom {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -61,8 +58,8 @@
   margin: 50px 0;
 }
 
-#main-area #main-body #wellcom.main-body--activ {
-  display: flex;
+#main-area #main-body #wellcom.main-body--noneactiv {
+  display: none;
 }
 
 #main-area #main-body #wellcom .follow-list {
@@ -117,13 +114,14 @@
 }
 
 #main-area #main-body #photos {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-#main-area #main-body #photos.main-body--activ {
-  display: flex;
+#main-area #main-body #photos.main-body--noneactiv {
+  display: none;
 }
 
 #main-area #main-body #photos .photos-photolists {
