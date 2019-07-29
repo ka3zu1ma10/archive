@@ -27,6 +27,14 @@
       <?php include ('wellcom.html'); ?>
     </article>
   </main>
+  <script>
+  var mainBodyEls = {
+    "wellcomeEls": "<?php include ('wellcom.html'); ?>",
+    "photosEls": "<?php include ('phots.php'); ?>",
+    "designsEls": "<?php include ('designs.php'); ?>",
+    "aboutmeEls": "<?php include ('aboutme.html'); ?>"
+  };
+</script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./js/lightbox.js"></script>
   <script src="./js/main.js"></script>
