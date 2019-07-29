@@ -123,8 +123,12 @@
   justify-content: space-around;
 }
 
-#main-area #main-body #photos .photos-photolists .photos-photolist .images {
+#main-area #main-body #photos .photos-photolists .photos-photolist {
   width: 25%;
+}
+
+#main-area #main-body #photos .photos-photolists .photos-photolist .images {
+  width: 100%;
   height: auto;
   margin: 10px;
   border: solid 4px #eee;

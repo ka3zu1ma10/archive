@@ -129,8 +129,10 @@
         justify-content: space-around;
 
         .photos-photolist {
+          width: 25%;
+
           .images {
-            width: 25%;
+            width: 100%;
             height: auto;
             margin: 10px;
             border: solid 4px #eee;
