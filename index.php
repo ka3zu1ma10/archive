@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="./css/lightbox.css">
   <title></title>
 </head>
-
+<!-- お越しいただきありがとうございます。 -->
+<!-- まだまだ制作途中ですが、少しづつ進化していけたらと思っています。 -->
 <body>
   <header id="main-header">
     <h1>Kazuma Saitoh</h1>
