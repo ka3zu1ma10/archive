@@ -24,7 +24,7 @@
       </ul>
     </menu>
     <article id="main-body">
-      <div id="main-body-date-welcom" class="main-body-date--activ">
+      <div id="main-body-date-welcom" class="main-body-date main-body-date--activ">
         <?php include ('wellcom.html'); ?>
       </div>
       <div id="main-body-date-photos" class="main-body-date">
