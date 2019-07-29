@@ -54,10 +54,10 @@
 
     .main-body-date {
       display: none;
+    }
 
-      &.main-body-date--active {
-        display: block;
-      }
+    .main-body-date--active {
+      display: block;
     }
 
     #wellcom {
