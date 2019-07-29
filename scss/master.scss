@@ -58,6 +58,7 @@
     text-align: center;
     height: 90vh;
     width: 100%;
+    margin: 50px 0;
 
     .follow-list {
       font-size: 1.2rem;
@@ -112,6 +113,13 @@
     }
 
     #photos {
+      // 縦に積む
+      display: flex;
+      flex-direction: column;
+      // 中央寄せ
+      justify-content: center;
+      text-align: center;
+
       .photos-photolists {
         list-style: none;
         display: flex;

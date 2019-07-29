@@ -55,6 +55,7 @@
   text-align: center;
   height: 90vh;
   width: 100%;
+  margin: 50px 0;
 }
 
 #main-area #main-body .follow-list {
@@ -106,6 +107,13 @@
 #main-area #main-body .follow-list p {
   margin-right: 0;
   margin-left: auto;
+}
+
+#main-area #main-body #photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 #main-area #main-body #photos .photos-photolists {
