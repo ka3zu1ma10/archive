@@ -55,7 +55,7 @@
     .main-body-date {
       display: none;
 
-      & .main-body-date--active {
+      &.main-body-date--active {
         display: block;
       }
     }
