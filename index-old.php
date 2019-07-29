@@ -31,7 +31,7 @@
         <ul>
           <?php
           // ディレクトリハンドルの取得
-          $dir_h = opendir( "./img/img-list/" ) ;
+          $dir_h = opendir( "./images/img-list/" ) ;
           // ファイル・ディレクトリの一覧を $file_list に
           while (false !== ($file_list[] = readdir($dir_h))) ;
           // ディレクトリハンドルを閉じる
@@ -40,9 +40,9 @@
           foreach ( $file_list as $file_name )
           {
             //ファイルのみを表示
-            if( is_file( "./img/img-list/" . $file_name) )
+            if( is_file( "./images/img-list/" . $file_name) )
             {
-              $p = pathinfo("./img/img-list/" . $file_name);
+              $p = pathinfo("./images/img-list/" . $file_name);
               if ( $p["extension"] == "JPG" )
               {
                 print $file_name  ;
