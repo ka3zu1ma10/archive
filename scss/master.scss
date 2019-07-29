@@ -110,5 +110,19 @@
         margin-left: auto;
       }
     }
+
+    #photos {
+      .photos-photolists {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+
+        .photos-photolist {
+          img {
+            width: 300px;
+          }
+        }
+      }
+    }
   }
 }
