@@ -16,17 +16,21 @@ $(window).scroll(function() {
 });
 
 var getMainMenuEls = document.getElementsByClassName('menu-list_button');
-var getMainBodyEls = document.getElementById('main-body');
+var getMainBodyEls = document.getElementsByClassName('main-body-date');
+
 var clickMainMenuHandler = function(resp) {
   for (var getMainMenuEl of getMainMenuEls) {
     getMainMenuEl.classList.remove('menu-list_button__active');
   }
-  getMainBodyEls.removeChild(getMainBodyEls.firstElementChild);
-
+  for (var getMainBodyEl of getMainBodyEls) {
+    getMainMenuEl.classList.remove('main-body-date--active');
+  }
   resp.target.classList.add('menu-list_button__active');
-  var activBodyTag = resp.target.value + 'Els';
-  var node = document.createTextNode(window.mainBodyEls[activBodyTag]);
-  getMainBodyEls.appendChild(node);
+  var activBodyTag = 'main-body-date-' + resp.target.value;
+  var getActivBodyEl = document.getElementById(activBodyTag);
+  getActivBodyEl.classList.add('main-body-date--active');
+
+
 };
 for (var getMainMenuEl of getMainMenuEls) {
   getMainMenuEl.addEventListener('click', clickMainMenuHandler);
