@@ -50,65 +50,67 @@
   }
 
   #main-body {
-    // 縦に積む
-    display: flex;
-    flex-direction: column;
-    // 中央寄せ
-    justify-content: center;
-    text-align: center;
-    height: 90vh;
-    width: 100%;
-    margin: 50px 0;
-
-    .follow-list {
-      font-size: 1.2rem;
-      font-weight: 400;
-      margin-top: 2vw;
+    #wellcom {
+      // 縦に積む
       display: flex;
+      flex-direction: column;
+      // 中央寄せ
       justify-content: center;
-      color: White;
+      text-align: center;
+      height: 90vh;
+      width: 100%;
+      margin: 50px 0;
 
-      li {
-        padding: 1rem;
-        margin: 0 3vw;
-        text-align: center;
-        width: 16rem;
-        height: 6rem;
-        border-radius: 0.5rem;
-
-        &:focus,
-        &:hover {
-          filter: grayscale(100%);
-        }
-      }
-
-      .follow-twitter {
-        background-color: #00acee;
-
-        .twitter-icon {
-          width: 4rem;
-        }
-      }
-
-      .follow-facebook {
-        background-color: #3b5998;
-
-        .facebook-icon {
-          width: 2.6rem;
-        }
-      }
-
-      a {
-        text-decoration: none;
-        color: White;
+      .follow-list {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 2vw;
         display: flex;
         justify-content: center;
-        align-items: center;
-      }
+        color: White;
 
-      p {
-        margin-right: 0;
-        margin-left: auto;
+        li {
+          padding: 1rem;
+          margin: 0 3vw;
+          text-align: center;
+          width: 16rem;
+          height: 6rem;
+          border-radius: 0.5rem;
+
+          &:focus,
+          &:hover {
+            filter: grayscale(100%);
+          }
+        }
+
+        .follow-twitter {
+          background-color: #00acee;
+
+          .twitter-icon {
+            width: 4rem;
+          }
+        }
+
+        .follow-facebook {
+          background-color: #3b5998;
+
+          .facebook-icon {
+            width: 2.6rem;
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: White;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        p {
+          margin-right: 0;
+          margin-left: auto;
+        }
       }
     }
 
@@ -127,7 +129,11 @@
 
         .photos-photolist {
           .images {
-            width: 300px;
+            width: 20vw;
+            height: auto;
+            margin: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+            border: solid 4px #eee;
           }
         }
       }

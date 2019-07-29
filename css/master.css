@@ -48,7 +48,7 @@
   }
 }
 
-#main-area #main-body {
+#main-area #main-body #wellcom {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,7 +58,7 @@
   margin: 50px 0;
 }
 
-#main-area #main-body .follow-list {
+#main-area #main-body #wellcom .follow-list {
   font-size: 1.2rem;
   font-weight: 400;
   margin-top: 2vw;
@@ -67,7 +67,7 @@
   color: White;
 }
 
-#main-area #main-body .follow-list li {
+#main-area #main-body #wellcom .follow-list li {
   padding: 1rem;
   margin: 0 3vw;
   text-align: center;
@@ -76,27 +76,27 @@
   border-radius: 0.5rem;
 }
 
-#main-area #main-body .follow-list li:focus, #main-area #main-body .follow-list li:hover {
+#main-area #main-body #wellcom .follow-list li:focus, #main-area #main-body #wellcom .follow-list li:hover {
   filter: grayscale(100%);
 }
 
-#main-area #main-body .follow-list .follow-twitter {
+#main-area #main-body #wellcom .follow-list .follow-twitter {
   background-color: #00acee;
 }
 
-#main-area #main-body .follow-list .follow-twitter .twitter-icon {
+#main-area #main-body #wellcom .follow-list .follow-twitter .twitter-icon {
   width: 4rem;
 }
 
-#main-area #main-body .follow-list .follow-facebook {
+#main-area #main-body #wellcom .follow-list .follow-facebook {
   background-color: #3b5998;
 }
 
-#main-area #main-body .follow-list .follow-facebook .facebook-icon {
+#main-area #main-body #wellcom .follow-list .follow-facebook .facebook-icon {
   width: 2.6rem;
 }
 
-#main-area #main-body .follow-list a {
+#main-area #main-body #wellcom .follow-list a {
   text-decoration: none;
   color: White;
   display: flex;
@@ -104,7 +104,7 @@
   align-items: center;
 }
 
-#main-area #main-body .follow-list p {
+#main-area #main-body #wellcom .follow-list p {
   margin-right: 0;
   margin-left: auto;
 }
@@ -123,5 +123,9 @@
 }
 
 #main-area #main-body #photos .photos-photolists .photos-photolist .images {
-  width: 300px;
+  width: 20vw;
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border: solid 4px #eee;
 }
