@@ -126,13 +126,13 @@
         list-style: none;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
 
         .photos-photolist {
           .images {
             width: 20vw;
             height: auto;
             margin: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, .3);
             border: solid 4px #eee;
           }
         }
