@@ -17,10 +17,10 @@
   <main id="main-area">
     <menu id="main-menu">
       <ul class="menu-lists">
-        <li><a class="menu-list_button menu-list_button__active" href="#">WELLCOM</a></li>
-        <li><a class="menu-list_button" href="#">PHOTOs</a></li>
-        <li><a class="menu-list_button" href="photos.php">DESIGNs</a></li>
-        <li><a class="menu-list_button" href="aboutme.html">ABOUT ME</a></li>
+        <li><button class="menu-list_button menu-list_button__active" type="button" name="button" value="wellcom">WELLCOM</button></li>
+        <li><button class="menu-list_button" type="button" name="button" value="photos">PHOTOs</button></li>
+        <li><button class="menu-list_button" type="button" name="button" value="designs">DESIGNs</button></li>
+        <li><button class="menu-list_button" type="button" name="button" value="aboutme">ABOUT ME</button></li>
       </ul>
     </menu>
     <article id="main-body">
