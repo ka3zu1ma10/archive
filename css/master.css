@@ -48,8 +48,11 @@
   }
 }
 
-#main-area #main-body #wellcom {
+#main-area #main-body section {
   display: none;
+}
+
+#main-area #main-body #wellcom {
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -114,13 +117,12 @@
 }
 
 #main-area #main-body #photos {
-  display: none;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-#main-area #main-body #photos .main-body--activ {
+#main-area #main-body #photos.main-body--activ {
   display: flex;
 }
 
