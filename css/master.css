@@ -114,6 +114,6 @@
   flex-wrap: wrap;
 }
 
-#main-area #main-body #photos .photos-photolists .photos-photolist img {
+#main-area #main-body #photos .photos-photolists .photos-photolist .images {
   width: 300px;
 }
