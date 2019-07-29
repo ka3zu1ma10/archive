@@ -8,7 +8,6 @@
 #main-area {
   display: flex;
   height: 100%;
-  width: 100%;
 }
 
 #main-area #main-menu {
@@ -47,6 +46,10 @@
   #main-area #main-menu {
     display: none;
   }
+}
+
+#main-area #main-body {
+  width: 100%;
 }
 
 #main-area #main-body #wellcom {

@@ -8,7 +8,6 @@
 #main-area {
   display: flex;
   height: 100%;
-  width: 100%;
 
   #main-menu {
     border-right: solid 1px rgba(25, 25, 25,0.2);
@@ -51,6 +50,8 @@
   }
 
   #main-body {
+    width: 100%;
+
     #wellcom {
       &.main-body--noneactiv {
         display: none;

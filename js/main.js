@@ -15,13 +15,21 @@ $(window).scroll(function() {
   }
 });
 
+var wellcomeEls = "<?php include ('wellcom.html'); ?>";
+var photosEls = "<?php include ('phots.php'); ?>";
+var designsEls = "<?php include ('designs.php'); ?>";
+var aboutmeEls = "<?php include ('aboutme.html'); ?>";
+
 var getMainMenuEls = document.getElementsByClassName('menu-list_button');
+var getMainBodyEls = document.getElementById('main-body');
 var clickMainMenuHandler = function(resp) {
   for (var getMainMenuEl of getMainMenuEls) {
     getMainMenuEl.classList.remove('menu-list_button__active');
   }
-  console.log(resp);
+  getMainBodyEls.appendChild('');
   resp.target.classList.add('menu-list_button__active');
+  var activBodyTag = resp.target.value + 'Els';
+  getMainBodyEls.appendChild(activBodyTag);
 };
 for (var getMainMenuEl of getMainMenuEls) {
   getMainMenuEl.addEventListener('click', clickMainMenuHandler);
