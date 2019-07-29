@@ -17,14 +17,14 @@
   <main id="main-area">
     <menu id="main-menu">
       <ul class="menu-lists">
-        <li><button class="menu-list_button menu-list_button__active" type="button" name="button">WELLCOM</button></li>
-        <li><button class="menu-list_button" type="button" name="button">PHOTOs</button></li>
-        <li><button class="menu-list_button" type="button" name="button">DESIGNs</button></li>
-        <li><button class="menu-list_button" type="button" name="button">ABOUT ME</button></li>
+        <li><button class="menu-list_button menu-list_button__active" type="button" name="button" value="wellcom">WELLCOM</button></li>
+        <li><button class="menu-list_button" type="button" name="button" value="photos">PHOTOs</button></li>
+        <li><button class="menu-list_button" type="button" name="button" value="design">DESIGNs</button></li>
+        <li><button class="menu-list_button" type="button" name="button" value="aboutme">ABOUT ME</button></li>
       </ul>
     </menu>
     <article id="main-body">
-      <section id="wellcom">
+      <section id="wellcom" class="main-body--activ">
         <h2>WELLCOM<br>Kazuma Saitoh Pages</h2>
         <section>
           <h3>Are you sure you want to follow me</h3>

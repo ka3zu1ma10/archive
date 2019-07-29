@@ -49,13 +49,17 @@
 }
 
 #main-area #main-body #wellcom {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   height: 90vh;
   width: 100%;
   margin: 50px 0;
+}
+
+#main-area #main-body #wellcom .main-body--activ {
+  display: flex;
 }
 
 #main-area #main-body #wellcom .follow-list {
@@ -110,10 +114,14 @@
 }
 
 #main-area #main-body #photos {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+#main-area #main-body #photos .main-body--activ {
+  display: flex;
 }
 
 #main-area #main-body #photos .photos-photolists {

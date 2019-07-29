@@ -51,8 +51,11 @@
 
   #main-body {
     #wellcom {
+      & .main-body--activ {
+        display: flex;
+      }
+      display: none;
       // 縦に積む
-      display: flex;
       flex-direction: column;
       // 中央寄せ
       justify-content: center;
@@ -115,8 +118,11 @@
     }
 
     #photos {
+      & .main-body--activ {
+        display: flex;
+      }
+      display: none;
       // 縦に積む
-      display: flex;
       flex-direction: column;
       // 中央寄せ
       justify-content: center;
