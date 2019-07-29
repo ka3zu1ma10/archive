@@ -52,6 +52,14 @@
   width: 100%;
 }
 
+#main-area #main-body .main-body-date {
+  display: none;
+}
+
+#main-area #main-body .main-body-date--active {
+  display: block;
+}
+
 #main-area #main-body #wellcom {
   display: flex;
   flex-direction: column;

@@ -24,17 +24,21 @@
       </ul>
     </menu>
     <article id="main-body">
-      <?php include ('wellcom.html'); ?>
+      <div id="main-body-date-welcom" class="main-body-date--activ">
+        <?php include ('wellcom.html'); ?>
+      </div>
+      <div id="main-body-date-photos" class="main-body-date">
+        <?php include ('photos.php'); ?>
+      </div>
+      <div id="main-body-date-designs" class="main-body-date">
+        <?php include ('designs.php'); ?>
+      </div>
+      <div id="main-body-date-aboutme" class="main-body-date">
+        <?php include ('aboutme.html'); ?>
+      </div>
+
     </article>
   </main>
-  <script>
-  var mainBodyEls = {
-    "wellcomeEls": "<?php include ('wellcom.html'); ?>",
-    "photosEls": "<?php include ('phots.php'); ?>",
-    "designsEls": "<?php include ('designs.php'); ?>",
-    "aboutmeEls": "<?php include ('aboutme.html'); ?>"
-  };
-</script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./js/lightbox.js"></script>
   <script src="./js/main.js"></script>
