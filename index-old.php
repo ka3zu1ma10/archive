@@ -15,12 +15,12 @@
         <ul class="follow-list">
           <li class="button follow-twitter">
             <a href="https://twitter.com/ka3zu1ma10?ref_src=twsrc%5Etfw" data-show-count="false">
-              <img class="twitter-icon" src="img/Twitter_Logo_WhiteOnImage.svg"><p>Twitter Follow<br>@ka3zu1ma10</p>
+              <img class="twitter-icon" src="images/Twitter_Logo_WhiteOnImage.svg"><p>Twitter Follow<br>@ka3zu1ma10</p>
             </a>
             </li>
             <li class="button follow-facebook">
               <a href="https://www.facebook.com/ka3zu1ma10">
-                <img class="facebook-icon" src="img/flogo-HexRBG-Wht-58.svg">
+                <img class="facebook-icon" src="images/flogo-HexRBG-Wht-58.svg">
                 <p>Facebook Follow<br>ka3zu1ma10</p>
               </a>
             </li>
@@ -31,7 +31,7 @@
         <ul>
           <?php
           // ディレクトリハンドルの取得
-          $dir_h = opendir( "./images/img-list/" ) ;
+          $dir_h = opendir( "images/img-list/" ) ;
           // ファイル・ディレクトリの一覧を $file_list に
           while (false !== ($file_list[] = readdir($dir_h))) ;
           // ディレクトリハンドルを閉じる
@@ -40,9 +40,9 @@
           foreach ( $file_list as $file_name )
           {
             //ファイルのみを表示
-            if( is_file( "./images/img-list/" . $file_name) )
+            if( is_file( "images/img-list/" . $file_name) )
             {
-              $p = pathinfo("./images/img-list/" . $file_name);
+              $p = pathinfo("images/img-list/" . $file_name);
               if ( $p["extension"] == "JPG" )
               {
                 print $file_name  ;
