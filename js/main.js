@@ -35,7 +35,7 @@ var clickMainMenuHandler = function(resp) {
   resp.target.classList.add('menu-list_button__active');
   var activBodyTag = resp.target.value + 'Els';
   var $node = $(mainBodyEls[activBodyTag]);
-  $elem.appendTo(getMainBodyEls);
+  $node.appendTo(getMainBodyEls);
 };
 for (var getMainMenuEl of getMainMenuEls) {
   getMainMenuEl.addEventListener('click', clickMainMenuHandler);
