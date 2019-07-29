@@ -18,10 +18,10 @@ $(window).scroll(function() {
 
 
 var mainBodyEls = {
-  "wellcomeEls": "<?php include ('wellcom.html'); ?>",
-  "photosEls": "<?php include ('phots.php'); ?>",
-  "designsEls": "<?php include ('designs.php'); ?>",
-  "aboutmeEls": "<?php include ('aboutme.html'); ?>"
+  "wellcomeEls": <?php include ('wellcom.html'); ?>,
+  "photosEls": <?php include ('phots.php'); ?>,
+  "designsEls": <?php include ('designs.php'); ?>,
+  "aboutmeEls": <?php include ('aboutme.html'); ?>
 };
 
 var getMainMenuEls = document.getElementsByClassName('menu-list_button');
