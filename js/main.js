@@ -34,7 +34,7 @@ var clickMainMenuHandler = function(resp) {
 
   resp.target.classList.add('menu-list_button__active');
   var activBodyTag = resp.target.value;
-  var node = $.parseHTML(mainBodyEls[activBodyTag]);＄
+  var node = $.parseHTML(mainBodyEls[activBodyTag]);
   getMainBodyEls.append(node);
 };
 for (var getMainMenuEl of getMainMenuEls) {
