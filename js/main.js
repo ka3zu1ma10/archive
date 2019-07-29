@@ -18,10 +18,10 @@ $(window).scroll(function() {
 
 
 var mainBodyEls = {
-  "wellcomeEls": <?php include ('wellcom.html'); ?>,
-  "photosEls": <?php include ('phots.php'); ?>,
-  "designsEls": <?php include ('designs.php'); ?>,
-  "aboutmeEls": <?php include ('aboutme.html'); ?>
+  "wellcomeEls": "<?php include ('wellcom.html'); ?>",
+  "photosEls": "<?php include ('phots.php'); ?>",
+  "designsEls": "<?php include ('designs.php'); ?>",
+  "aboutmeEls": "<?php include ('aboutme.html'); ?>"
 };
 
 var getMainMenuEls = document.getElementsByClassName('menu-list_button');
@@ -35,7 +35,7 @@ var clickMainMenuHandler = function(resp) {
   resp.target.classList.add('menu-list_button__active');
   var activBodyTag = resp.target.value + 'Els';
   console.log(activBodyTag);
-  getMainBodyEls.appendChild(mainBodyEls[activBodyTag]);
+  getMainBodyEls.innerHTML(mainBodyEls[activBodyTag]);
 };
 for (var getMainMenuEl of getMainMenuEls) {
   getMainMenuEl.addEventListener('click', clickMainMenuHandler);
