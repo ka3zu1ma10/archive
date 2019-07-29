@@ -46,10 +46,7 @@
         <h2>My Photolist</h2>
         <ul>
           <?php
-          foreach(glob('./images/imag-list/*') as $file){
-            if(is_file($file)){
-              print "<p>$file</p>";
-              $imagedir = opendir(htmlspecialchars($file));
+              $imagedir = opendir("images/img-list/mitaka-20190616");
               while (false !== ($file[] = readdir($imagedir)));
               closedir($imagedir);
               natsort($file);
@@ -60,8 +57,6 @@
                 print "<li><a href='./images/top-image/" . $jpg[1] . "' data-lightbox='image-1'><img class='images' src='./images/top-image/" . $jpg[1] . "'></a></li>";
               }
             }
-          }
-        }
 
           ?>
         </ul>
