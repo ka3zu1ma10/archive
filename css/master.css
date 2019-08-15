@@ -12,6 +12,7 @@
 }
 
 #main-area {
+  margin-top: 5vh;
   display: flex;
   height: 100%;
 }
@@ -55,7 +56,7 @@
 }
 
 #main-area #main-body {
-  width: 100%;
+  height: 95vh;
 }
 
 #main-area #main-body .main-body-date {
@@ -64,6 +65,10 @@
 
 #main-area #main-body .main-body-date--active {
   display: block !important;
+}
+
+#main-area #main-bodysection {
+  overflow: scroll;
 }
 
 #main-area #main-body #wellcom {
@@ -146,6 +151,7 @@
   position: sticky;
   top: 0;
   text-align: left;
+  background-color: #fff;
 }
 
 #main-area #main-body #photos .photos-photolists {
@@ -155,7 +161,7 @@
 }
 
 #main-area #main-body #photos .photos-photolists .photos-photolist {
-  width: 25%;
+  height: 25%;
 }
 
 #main-area #main-body #photos .photos-photolists .photos-photolist .images {
