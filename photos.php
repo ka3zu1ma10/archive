@@ -1,6 +1,5 @@
-
+<h2 class="page-tittle">My Photolist</h2>
 <section id="photos">
-  <h2 class="page-tittle">My Photolist</h2>
   <h3 class="photos-tittle">MITAKA</h3>
   <ul class="photos-photolists">
     <?php
