@@ -5,6 +5,12 @@
   padding: 0.2em 0.6em;
 }
 
+.page-tittle {
+  position: sticky;
+  top: 0;
+  text-align: left;
+}
+
 #main-area {
   display: flex;
   height: 100%;
@@ -137,6 +143,12 @@
       // 中央寄せ
       justify-content: center;
       text-align: center;
+
+      .photos-tittle {
+        position: sticky;
+        top: 0;
+        text-align: left;
+      }
 
       .photos-photolists {
         list-style: none;

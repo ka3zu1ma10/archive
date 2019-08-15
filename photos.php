@@ -1,7 +1,7 @@
 
 <section id="photos">
-  <h2>My Photolist</h2>
-  <h3>MITAKA</h3>
+  <h2 class="page-tittle">My Photolist</h2>
+  <h3 class="photos-tittle">MITAKA</h3>
   <ul class="photos-photolists">
     <?php
     $imagedir = opendir("./images/img-list/mitaka-20190616/");
@@ -18,7 +18,7 @@
     ?>
   </ul>
 
-  <h3>OKUTAMA</h3>
+  <h3 class="photos-tittle">OKUTAMA</h3>
   <ul class="photos-photolists">
     <?php
     $imagedir2 = opendir("./images/img-list/okutama-20181125/");
@@ -35,7 +35,7 @@
     ?>
   </ul>
 
-  <h3>others</h3>
+  <h3 class="photos-tittle">others</h3>
   <ul class="photos-photolists">
     <?php
     $imagedir3 = opendir("./images/img-list/others/");
