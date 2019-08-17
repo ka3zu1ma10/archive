@@ -139,12 +139,11 @@
       &.main-body--noneactiv {
         display: none;
       }
-      display: flex;
-      // 縦に積む
       flex-direction: column;
-      // 中央寄せ
       justify-content: center;
       text-align: center;
+      height: 95vh;
+      overflow: scroll;
 
       .photos-tittle {
         position: sticky;

@@ -134,10 +134,11 @@
 }
 
 #main-area #main-body #photos {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  height: 95vh;
+  overflow: scroll;
 }
 
 #main-area #main-body #photos.main-body--noneactiv {
