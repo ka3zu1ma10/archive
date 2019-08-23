@@ -69,10 +69,17 @@
       .menu-lists {
         list-style: none;
         display: flex;
+
+        .menu-list {
+          text-align: center;
+          margin-right: 2rem;
+        }
       }
     }
 
     #main-body {
+      font-size: 2rem;
+
       #photos {
         height: 87vh;
       }

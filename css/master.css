@@ -68,6 +68,13 @@
     list-style: none;
     display: flex;
   }
+  #main-area #main-menu .menu-lists .menu-list {
+    text-align: center;
+    margin-right: 2rem;
+  }
+  #main-area #main-body {
+    font-size: 2rem;
+  }
   #main-area #main-body #photos {
     height: 87vh;
   }
