@@ -34,9 +34,10 @@
 
       .menu-list {
         &_button {
+          font-size: 1.6vh;
           outline: none;
           text-align: left;
-          height: 2rem;
+          height: 3vh;
           width: 100%;
           border-bottom: dashed 2px rgba(0,0,0,0);
           margin-top: 0.4rem;
@@ -57,126 +58,126 @@
       }
     }
   }
-  @media all and (max-width: 981px) {
-    #main-menu {
+}
+@media all and (max-width: 981px) {
+  #main-menu {
+    position: absolute;
+  }
+}
+
+#main-body {
+  width: 100%;
+  height: 95vh;
+  overflow: scroll;
+
+  .main-body-date {
+    display: none;
+    padding: 0 0.5rem;
+  }
+
+  .main-body-date--active {
+    display: block !important;
+  }
+
+  #wellcom {
+    &.main-body--noneactiv {
       display: none;
+    }
+    display: flex;
+    // 縦に積む
+    flex-direction: column;
+    // 中央寄せ
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+
+    .follow-list {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-top: 2vw;
+      display: flex;
+      justify-content: center;
+      color: White;
+
+      li {
+        padding: 1rem;
+        margin: 0 3vw;
+        text-align: center;
+        width: 16rem;
+        height: 6rem;
+        border-radius: 0.5rem;
+
+        &:focus,
+        &:hover {
+          filter: grayscale(100%);
+        }
+      }
+
+      .follow-twitter {
+        background-color: #00acee;
+
+        .twitter-icon {
+          width: 4rem;
+        }
+      }
+
+      .follow-facebook {
+        background-color: #3b5998;
+
+        .facebook-icon {
+          width: 2.6rem;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: White;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      p {
+        margin-right: 0;
+        margin-left: auto;
+      }
     }
   }
 
-  #main-body {
-    width: 100%;
-    height: 95vh;
+  #photos {
+    &.main-body--noneactiv {
+      display: none;
+    }
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 92vh;
     overflow: scroll;
 
-    .main-body-date {
-      display: none;
-      padding: 0 0.5rem;
+    .photos-tittle {
+      position: sticky;
+      top: 0;
+      text-align: left;
+      background-color: #fff;
+      font-size: 1.6vh;
+      height: 2.5vh;
+      line-height: 2;
     }
 
-    .main-body-date--active {
-      display: block !important;
-    }
-
-    #wellcom {
-      &.main-body--noneactiv {
-        display: none;
-      }
+    .photos-photolists {
+      list-style: none;
       display: flex;
-      // 縦に積む
-      flex-direction: column;
-      // 中央寄せ
-      justify-content: center;
-      text-align: center;
-      height: 90vh;
-      width: 100%;
+      flex-wrap: wrap;
 
-      .follow-list {
-        font-size: 1.2rem;
-        font-weight: 400;
-        margin-top: 2vw;
-        display: flex;
-        justify-content: center;
-        color: White;
+      .photos-photolist {
+        height: 19vw;
+        width: auto;
 
-        li {
-          padding: 1rem;
-          margin: 0 3vw;
-          text-align: center;
-          width: 16rem;
-          height: 6rem;
-          border-radius: 0.5rem;
-
-          &:focus,
-          &:hover {
-            filter: grayscale(100%);
-          }
-        }
-
-        .follow-twitter {
-          background-color: #00acee;
-
-          .twitter-icon {
-            width: 4rem;
-          }
-        }
-
-        .follow-facebook {
-          background-color: #3b5998;
-
-          .facebook-icon {
-            width: 2.6rem;
-          }
-        }
-
-        a {
-          text-decoration: none;
-          color: White;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        p {
-          margin-right: 0;
-          margin-left: auto;
-        }
-      }
-    }
-
-    #photos {
-      &.main-body--noneactiv {
-        display: none;
-      }
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      height: 92vh;
-      overflow: scroll;
-
-      .photos-tittle {
-        position: sticky;
-        top: 0;
-        text-align: left;
-        background-color: #fff;
-        font-size: 1.6vh;
-        height: 2.5vh;
-        line-height: 2;
-      }
-
-      .photos-photolists {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-
-        .photos-photolist {
-          height: 19vw;
+        .images {
           width: auto;
-
-          .images {
-            width: auto;
-            height: 100%;
-            border: solid 4px #eee;
-          }
+          height: 100%;
+          border: solid 4px #eee;
         }
       }
     }
