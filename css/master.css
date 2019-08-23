@@ -3,12 +3,19 @@
   background-color: #3e3e3e;
   color: #fff;
   padding: 0.2em 0.6em;
+  height: 4vh;
+}
+
+#main-header h1 {
+  font-size: 2.5vh;
 }
 
 .page-tittle {
   position: sticky;
   top: 0;
   text-align: left;
+  font-size: 2vh;
+  height: 3vh;
 }
 
 #main-area {
@@ -18,7 +25,7 @@
 
 #main-area #main-menu {
   border-right: solid 1px rgba(25, 25, 25, 0.2);
-  height: 95vh;
+  height: 96vh;
 }
 
 #main-area #main-menu .menu-lists {
@@ -138,7 +145,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 91vh;
+  height: 92vh;
   overflow: scroll;
 }
 
@@ -151,6 +158,9 @@
   top: 0;
   text-align: left;
   background-color: #fff;
+  font-size: 1.6vh;
+  height: 2.5vh;
+  line-height: 2;
 }
 
 #main-area #main-body #photos .photos-photolists {
@@ -160,7 +170,7 @@
 }
 
 #main-area #main-body #photos .photos-photolists .photos-photolist {
-  height: 24vh;
+  height: 19vw;
   width: auto;
 }
 
