@@ -68,7 +68,7 @@
     list-style: none;
     display: flex;
   }
-  #main-area #main-menu .menu-lists .menu-list {
+  #main-area #main-menu .menu-lists .menu-list_button {
     text-align: center;
     margin-right: 2rem;
   }
