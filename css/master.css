@@ -58,8 +58,18 @@
 }
 
 @media all and (max-width: 981px) {
-  #main-menu {
-    position: absolute;
+  #main-area {
+    display: block;
+  }
+  #main-area #main-menu {
+    height: 5vh;
+  }
+  #main-area #main-menu .menu-lists {
+    list-style: none;
+    display: flex;
+  }
+  #main-area #main-body #photos {
+    height: 87vh;
   }
 }
 

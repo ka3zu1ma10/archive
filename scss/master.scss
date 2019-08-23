@@ -60,8 +60,23 @@
   }
 }
 @media all and (max-width: 981px) {
-  #main-menu {
-    position: absolute;
+  #main-area {
+    display: block;
+
+    #main-menu {
+      height: 5vh;
+
+      .menu-lists {
+        list-style: none;
+        display: flex;
+      }
+    }
+
+    #main-body {
+      #photos {
+        height: 87vh;
+      }
+    }
   }
 }
 
