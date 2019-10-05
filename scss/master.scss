@@ -215,4 +215,24 @@ body {
 
 #profile {
   background-image: url("/images/190921141622DSCF0999.jpg");
+  background-size: cover;
+  height: 55vw;
+  max-height: 90vh;
+  
+  &_wrap {
+    height: 55vw;
+    padding: 1rem;
+    max-height: 90vh;
+    background: linear-gradient(90deg, rgba(255,255,255,1), rgba(255,255,255,0));
+  }
+  &_h3 {
+    font-size: 3vw;
+    .jp_name {
+      font-size: 1vw;
+    }
+  }
+  &_h4 {
+    font-size: 2vw;
+
+  }
 }
