@@ -238,14 +238,14 @@ body {
   height: 100%;
 }
 
-#profile {
+.profile {
   background-image: url("/images/190921141622DSCF0999.jpg");
   background-size: cover;
   height: 55vw;
   max-height: 90vh;
 }
 
-#profile_wrap {
+.profile_wrap {
   height: 55vw;
   padding: 1rem;
   max-height: 90vh;
@@ -253,15 +253,15 @@ body {
   background: linear-gradient(90deg, white, rgba(255, 255, 255, 0));
 }
 
-#profile_h3 {
+.profile_h3 {
   font-size: 3vw;
 }
 
-#profile_h3 .jp_name {
+.profile_h3 .jp_name {
   font-size: 1vw;
 }
 
-#profile_h4 {
+.profile_h4 {
   font-size: 2vw;
 }
 /*# sourceMappingURL=master.css.map */
