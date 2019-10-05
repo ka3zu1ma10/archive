@@ -11,6 +11,7 @@
 }
 
 .page-tittle {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   text-align: left;
@@ -19,6 +20,8 @@
 }
 
 #main-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100%;
 }
@@ -49,6 +52,10 @@
   border-bottom: dashed 2px #000;
 }
 
+#main-area #main-menu .menu-lists .menu-list_button::-moz-selection {
+  background-color: #fff;
+}
+
 #main-area #main-menu .menu-lists .menu-list_button::selection {
   background-color: #fff;
 }
@@ -66,6 +73,8 @@
   }
   #main-area #main-menu .menu-lists {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   #main-area #main-menu .menu-lists .menu-list_button {
@@ -96,9 +105,16 @@
 }
 
 #main-body #wellcom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   height: 90vh;
   width: 100%;
@@ -112,8 +128,12 @@
   font-size: 1.2rem;
   font-weight: 400;
   margin-top: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: White;
 }
 
@@ -127,7 +147,8 @@
 }
 
 #main-body #wellcom .follow-list li:focus, #main-body #wellcom .follow-list li:hover {
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
 #main-body #wellcom .follow-list .follow-twitter {
@@ -149,9 +170,15 @@
 #main-body #wellcom .follow-list a {
   text-decoration: none;
   color: White;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #main-body #wellcom .follow-list p {
@@ -160,8 +187,13 @@
 }
 
 #main-body #photos {
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   height: 92vh;
   overflow: scroll;
@@ -172,6 +204,7 @@
 }
 
 #main-body #photos .photos-tittle {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   text-align: left;
@@ -183,8 +216,11 @@
 
 #main-body #photos .photos-photolists {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #main-body #photos .photos-photolists .photos-photolist {
@@ -197,3 +233,4 @@
   height: 100%;
   border: solid 4px #eee;
 }
+/*# sourceMappingURL=master.css.map */
