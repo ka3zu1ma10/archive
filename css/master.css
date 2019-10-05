@@ -255,11 +255,12 @@ body {
 
 .profile_h3 {
   font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .profile_h3 .jp_name {
-  font-size: 1rem;
-  margin-left: 3rem;
+  font-size: 1.4rem;
+  margin-left: 1rem;
 }
 
 .profile_h4 {
