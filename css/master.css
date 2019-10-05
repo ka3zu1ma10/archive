@@ -22,6 +22,7 @@ body {
   font-size: 2vh;
   height: 3vh;
   background-color: #fff;
+  line-height: 1.4;
 }
 
 #main-area {
@@ -235,5 +236,9 @@ body {
 #main-body #photos .photos-photolists .photos-photolist .images {
   width: auto;
   height: 100%;
+}
+
+#profile {
+  background-image: url("/images/190921141622DSCF0999.jpg");
 }
 /*# sourceMappingURL=master.css.map */

@@ -21,6 +21,7 @@ body {
   font-size: 2vh;
   height: 3vh;
   background-color: #fff;
+  line-height: 1.4;
 }
 
 #main-area {
@@ -210,4 +211,8 @@ body {
       }
     }
   }
+}
+
+#profile {
+  background-image: url("/images/190921141622DSCF0999.jpg");
 }
