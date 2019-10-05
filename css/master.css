@@ -254,14 +254,19 @@ body {
 }
 
 .profile_h3 {
-  font-size: 3vw;
+  font-size: 3rem;
 }
 
 .profile_h3 .jp_name {
-  font-size: 1vw;
+  font-size: 1rem;
+  margin-left: 3rem;
 }
 
 .profile_h4 {
-  font-size: 2vw;
+  font-size: 2rem;
+}
+
+.profile ul {
+  list-style: none;
 }
 /*# sourceMappingURL=master.css.map */

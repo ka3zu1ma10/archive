@@ -226,13 +226,17 @@ body {
     background: linear-gradient(90deg, rgba(255,255,255,1), rgba(255,255,255,0));
   }
   &_h3 {
-    font-size: 3vw;
+    font-size: 3rem;
     .jp_name {
-      font-size: 1vw;
+      font-size: 1rem;
+      margin-left: 3rem;
     }
   }
   &_h4 {
-    font-size: 2vw;
+    font-size: 2rem;
 
+  }
+  ul {
+    list-style: none;
   }
 }
