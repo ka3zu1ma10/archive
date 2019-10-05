@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="./css/ress.css">
   <link rel="stylesheet" href="./css/master.css">
   <link rel="stylesheet" href="./css/lightbox.css">
-  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Play:400,700&display=swap" rel="stylesheet">
+  <title>Kazuma's room</title>
 </head>
 <!-- お越しいただきありがとうございます。 -->
 <!-- まだまだ制作途中ですが、少しづつ進化していけたらと思っています。 -->

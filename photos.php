@@ -10,7 +10,7 @@
     $reverse = array_reverse($file, true);
     while (false !== ($jpg = each($reverse))) {
         if (preg_match("|.jpg$|", $jpg[1])) {
-            print "<li class='photos-photolist'><a href='./images/img-list/" . $jpg[1] . "' data-lightbox='image-1'><img class='images' src='./images/img-list/" . $jpg[1] . "'></a></li>";
+            print "<li class='photos-photolist'><a href='./images/img-list/" . $jpg[1] . "' data-lightbox='image-1'><img class='images' src='./images/img-list/" . $jpg[1] . "' alt=''></a></li>";
         }
     }
     ?>
