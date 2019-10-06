@@ -88,6 +88,7 @@ body {
   }
   #main-area #main-body {
     font-size: 2rem;
+    height: 90vh;
   }
   #main-area #main-body #photos {
     height: 87vh;
