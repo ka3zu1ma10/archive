@@ -268,7 +268,7 @@ body {
 }
 
 .profile_section {
-  max-width: 40vw;
+  max-width: 56vw;
 }
 
 .profile ul {
@@ -300,5 +300,11 @@ body {
 
 .profile .skill-level_star-off {
   color: #bbb;
+}
+
+@media all and (max-width: 981px) {
+  .profile .profile_section p {
+    font-size: 0.8em;
+  }
 }
 /*# sourceMappingURL=master.css.map */
