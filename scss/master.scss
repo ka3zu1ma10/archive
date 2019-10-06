@@ -259,7 +259,8 @@ body {
     text-align: center;
     background-color: #fff;
     border-radius: 8px;
-    height: 80px;
+    height: auto;
+    min-height: 80px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
     }
   }
@@ -279,6 +280,9 @@ body {
       .skill-level_star-on ,.skill-level_star-off {
         font-size: 0.6em;
       }
+    }
+    .skill-set {
+      display: block;
     }
   }
 }

@@ -290,7 +290,8 @@ body {
   text-align: center;
   background-color: #fff;
   border-radius: 8px;
-  height: 80px;
+  height: auto;
+  min-height: 80px;
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
           box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
@@ -309,6 +310,9 @@ body {
   }
   .profile .profile_section .skill-level_star-on, .profile .profile_section .skill-level_star-off {
     font-size: 0.6em;
+  }
+  .profile .skill-set {
+    display: block;
   }
 }
 /*# sourceMappingURL=master.css.map */

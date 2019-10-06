@@ -31,7 +31,7 @@ var skillSet = {
     'Level':4,
     'icon':''
   },
-  'Camera NIKON D5500':{
+  'NIKON D5500':{
     'Level':4,
     'icon':''
   }
