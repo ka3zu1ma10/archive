@@ -243,14 +243,12 @@ body {
   background-image: url("/images/190921141622DSCF0999.jpg");
   background-attachment: fixed;
   background-size: cover;
-  height: 55vw;
-  max-height: 90vh;
+  height: 100%;
 }
 
 .profile_wrap {
   height: 55vw;
   padding: 1rem;
-  max-height: 90vh;
   background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(90deg, white, rgba(255, 255, 255, 0));
 }
