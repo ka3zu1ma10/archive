@@ -37,6 +37,7 @@ const skillSetCreat = function(){
       let skillSetLevel = document.createElement('li');
       if (i < skill.Level){
         skillSetLevel.classList.add('fas','fa-star','star-on');
+        console.log(i);
       }else{
         skillSetLevel.classList.add('fas','fa-star');
       }
