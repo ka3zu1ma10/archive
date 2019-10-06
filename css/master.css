@@ -310,6 +310,7 @@ body {
   }
   .profile .profile_section .skill-level_star-on, .profile .profile_section .skill-level_star-off {
     font-size: 0.6em;
+    line-height: 3;
   }
   .profile .skill-set {
     display: block;
@@ -319,6 +320,17 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 340px;
+    -ms-flex-pack: distribute;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+  }
+  .profile .skill-set .skill-set_list p {
+    font-size: 1.6rem;
+    line-height: 2;
   }
 }
 /*# sourceMappingURL=master.css.map */

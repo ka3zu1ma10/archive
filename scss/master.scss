@@ -279,13 +279,25 @@ body {
     .profile_section {
       .skill-level_star-on ,.skill-level_star-off {
         font-size: 0.6em;
+        line-height: 3;
       }
     }
     .skill-set {
       display: block;
       .skill-set_list {
         margin-bottom: 0.5rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        align-items: center;
+        max-width: 340px;
+        -ms-flex-pack: distribute;
+        justify-content: space-between;
+        p {
+          font-size: 1.6rem;
+          line-height: 2;
+
+        }
       }
     }
   }
