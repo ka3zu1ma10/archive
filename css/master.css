@@ -314,5 +314,11 @@ body {
   .profile .skill-set {
     display: block;
   }
+  .profile .skill-set .skill-set_list {
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=master.css.map */

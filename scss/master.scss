@@ -283,6 +283,10 @@ body {
     }
     .skill-set {
       display: block;
+      .skill-set_list {
+        margin-bottom: 0.5rem;
+        display: flex;
+      }
     }
   }
 }
