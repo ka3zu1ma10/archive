@@ -27,11 +27,14 @@ const skillSetCreat = function(){
     console.log(skill);
     let skillSetLi = document.createElement('li');
     skillSetLi.classList.add('skill-set_list');
+    let skillSetP = document.createElement('p');
+    skillSetP.textContent = skill;
+    skillSetLi.appendChild(skillSetP);
 
-    let skillSetImg = document.createElement('img');
-    skillSetImg.setAttribute('src',skill.icon);
-    skillSetImg.classList.add('skill-set_icon');
-    skillSetLi.appendChild(skillSetImg);
+    // let skillSetImg = document.createElement('img');
+    // skillSetImg.setAttribute('src',skill.icon);
+    // skillSetImg.classList.add('skill-set_icon');
+    // skillSetLi.appendChild(skillSetImg);
 
     let skillSetLevels = document.createElement('ul');
     for (let i = 0; i < 5; i++){
