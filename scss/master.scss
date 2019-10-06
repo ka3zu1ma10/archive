@@ -241,6 +241,7 @@ body {
   }
   &_section {
     max-width: 56vw;
+    margin: 1rem 0;
   }
   ul {
     list-style: none;
@@ -273,7 +274,10 @@ body {
   @media all and (max-width: 981px) {
     .profile_section {
       p {
-        font-size: 0.8em;
+        font-size: 0.6em;
+      }
+      .skill-level_star-on ,.skill-level_star-off {
+        font-size: 0.6em;
       }
     }
   }
