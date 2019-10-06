@@ -25,7 +25,6 @@ const skillSetCreat = function(){
   const skillSetEl = document.querySelectorAll('.skill-set');
   for (let skill in skillSet){
     console.log(skill);
-    
     let skillSetLi = document.createElement('li');
     skillSetLi.classList.add('skill-set_list');
 
@@ -37,7 +36,7 @@ const skillSetCreat = function(){
     let skillSetLevels = document.createElement('ul');
     for (let i = 0; i < 5; i++){
       let skillSetLevel = document.createElement('li');
-      if (i < skill.Level){
+      if (i < skillSet[skill].Level){
         skillSetLevel.classList.add('fas','fa-star','star-on');
       }else{
         skillSetLevel.classList.add('fas','fa-star');
