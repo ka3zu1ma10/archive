@@ -269,4 +269,27 @@ body {
 .profile ul {
   list-style: none;
 }
+
+.profile .skill-set {
+  display: -ms-grid;
+  display: grid;
+  gap: 5px;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  -webkit-filter: drop-shadow(4px, 4px, 4px, rgba(0, 0, 0, 0.6));
+          filter: drop-shadow(4px, 4px, 4px, rgba(0, 0, 0, 0.6));
+}
+
+.profile .skill-set li {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.profile .skill-level_star-on {
+  color: orange;
+}
+
+.profile .skill-level_star-off {
+  color: #bbb;
+}
 /*# sourceMappingURL=master.css.map */

@@ -218,6 +218,7 @@ body {
   height: 55vw;
   max-height: 90vh;
   
+  
   &_wrap {
     height: 55vw;
     padding: 1rem;
@@ -238,5 +239,24 @@ body {
   }
   ul {
     list-style: none;
+  }
+  .skill-set {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, auto);
+    filter: drop-shadow(4px,4px,4px,rgba(0, 0, 0, 0.6));
+
+    li {
+      background-color: #fff;
+      border-radius: 8px;
+    }
+  }
+  .skill-level {
+    &_star-on {
+      color: orange;
+    }
+    &_star-off {
+      color: #bbb;
+    }
   }
 }
