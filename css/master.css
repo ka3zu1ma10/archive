@@ -276,13 +276,16 @@ body {
   gap: 5px;
   -ms-grid-columns: (auto)[3];
       grid-template-columns: repeat(3, auto);
-  -webkit-filter: drop-shadow(4px, 4px, 4px, rgba(0, 0, 0, 0.6));
-          filter: drop-shadow(4px, 4px, 4px, rgba(0, 0, 0, 0.6));
 }
 
-.profile .skill-set li {
+.profile .skill-set .skill-set_list {
+  padding: 0.5rem;
+  text-align: center;
   background-color: #fff;
   border-radius: 8px;
+  height: 80px;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .profile .skill-level_star-on {

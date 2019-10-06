@@ -244,11 +244,14 @@ body {
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(3, auto);
-    filter: drop-shadow(4px,4px,4px,rgba(0, 0, 0, 0.6));
 
-    li {
-      background-color: #fff;
-      border-radius: 8px;
+    .skill-set_list {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 80px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
     }
   }
   .skill-level {
