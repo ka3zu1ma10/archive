@@ -42,8 +42,8 @@ const skillSetCreat = function(){
       skillSetLevels.appendChild(skillSetLevel);
     }
     skillSetLi.appendChild(skillSetLevels);
-    skillSetEl.appendChild(skillSetLi);
+    skillSetEl[0].appendChild(skillSetLi);
   }
 };
 
-skillSetCreat()
+skillSetCreat();
