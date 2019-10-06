@@ -273,10 +273,10 @@ body {
     }
   }
   @media all and (max-width: 981px) {
+    .profile_works p {
+      font-size: 0.6em;
+    }
     .profile_section {
-      p {
-        font-size: 0.6em;
-      }
       .skill-level_star-on ,.skill-level_star-off {
         font-size: 0.6em;
       }
