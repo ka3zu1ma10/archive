@@ -296,12 +296,18 @@ body {
           box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
+.profile .skill-set .skill-set_list p {
+  font-size: 1.6rem;
+}
+
 .profile .skill-level_star-on {
   color: orange;
+  font-size: 1.4rem;
 }
 
 .profile .skill-level_star-off {
   color: #bbb;
+  font-size: 1.4rem;
 }
 
 @media all and (max-width: 981px) {
