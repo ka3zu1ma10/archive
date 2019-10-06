@@ -246,6 +246,12 @@ body {
   ul {
     list-style: none;
   }
+  .profile_works {
+    p {
+      font-size: 1.6rem;
+      text-shadow: 2px 2px 6px rgba(255, 255, 255, 1);
+    }
+  }
   .skill-set {
     display: grid;
     display: -ms-grid;

@@ -276,6 +276,11 @@ body {
   list-style: none;
 }
 
+.profile .profile_works p {
+  font-size: 1.6rem;
+  text-shadow: 2px 2px 6px white;
+}
+
 .profile .skill-set {
   display: grid;
   display: -ms-grid;
