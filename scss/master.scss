@@ -195,8 +195,10 @@ body {
     .photos-photolists {
       list-style: none;
       display: grid;
+      display: -ms-grid;
+      -ms-grid-columns:1fr 5px 1fr 5px 1fr;
       gap: 5px;
-      grid-template-columns: repeat(3, auto);
+      grid-template-columns: 1fr 1fr 1fr;
 
       .photos-photolist {
         height: 18vw;
@@ -237,13 +239,19 @@ body {
     font-size: 2rem;
 
   }
+  &_section {
+    max-width: 40vw;
+  }
   ul {
     list-style: none;
   }
   .skill-set {
     display: grid;
+    display: -ms-grid;
+    -ms-grid-columns:1fr 5px 1fr 5px 1fr;
     gap: 5px;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 1fr 1fr 1fr;
+
 
     .skill-set_list {
     padding: 0.5rem;

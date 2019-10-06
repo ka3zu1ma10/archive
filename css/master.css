@@ -219,11 +219,12 @@ body {
 
 #main-body #photos .photos-photolists {
   list-style: none;
-  display: -ms-grid;
   display: grid;
+  display: -ms-grid;
+  -ms-grid-columns: 1fr 5px 1fr 5px 1fr;
   gap: 5px;
-  -ms-grid-columns: (auto)[3];
-      grid-template-columns: repeat(3, auto);
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 }
 
 #main-body #photos .photos-photolists .photos-photolist {
@@ -266,16 +267,21 @@ body {
   font-size: 2rem;
 }
 
+.profile_section {
+  max-width: 40vw;
+}
+
 .profile ul {
   list-style: none;
 }
 
 .profile .skill-set {
-  display: -ms-grid;
   display: grid;
+  display: -ms-grid;
+  -ms-grid-columns: 1fr 5px 1fr 5px 1fr;
   gap: 5px;
-  -ms-grid-columns: (auto)[3];
-      grid-template-columns: repeat(3, auto);
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 }
 
 .profile .skill-set .skill-set_list {
