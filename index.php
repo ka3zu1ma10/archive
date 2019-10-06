@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/master.css">
   <link rel="stylesheet" href="./css/lightbox.css">
   <link href="https://fonts.googleapis.com/css?family=Play:400,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7d6d95fc57.js" crossorigin="anonymous"></script>
   <title>Kazuma's room</title>
 </head>
 <!-- お越しいただきありがとうございます。 -->
@@ -43,6 +44,7 @@
     </article>
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./js/data.js"></script>
   <script src="./js/lightbox.js"></script>
   <script src="./js/main.js"></script>
 </body>

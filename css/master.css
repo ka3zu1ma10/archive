@@ -200,7 +200,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  height: 92vh;
 }
 
 #main-body #photos.main-body--noneactiv {
