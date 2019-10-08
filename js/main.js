@@ -19,11 +19,11 @@ const clickMainMenuHandler = function(resp) {
 
 for (let getMainMenuEl of getMainMenuEls) {
   getMainMenuEl.addEventListener('click', clickMainMenuHandler);
-};
+}
 
-const skillSetCreat = function(){
+const skillSetCreat = function() {
   const skillSetEl = document.querySelectorAll('.skill-set');
-  for (let skill in skillSet){
+  for (let skill in skillSet) {
     let skillSetLi = document.createElement('li');
     skillSetLi.classList.add('skill-set_list');
     let skillSetP = document.createElement('p');
@@ -36,12 +36,12 @@ const skillSetCreat = function(){
     // skillSetLi.appendChild(skillSetImg);
 
     let skillSetLevels = document.createElement('ul');
-    for (let i = 0; i < 5; i++){
+    for (let i = 0; i < 5; i++) {
       let skillSetLevel = document.createElement('li');
-      if (i < skillSet[skill].Level){
-        skillSetLevel.classList.add('fas','fa-star','skill-level_star-on');
-      }else{
-        skillSetLevel.classList.add('fas','fa-star','skill-level_star-off');
+      if (i < skillSet[skill].Level) {
+        skillSetLevel.classList.add('fas', 'fa-star', 'skill-level_star-on');
+      } else {
+        skillSetLevel.classList.add('fas', 'fa-star', 'skill-level_star-off');
       }
       skillSetLevels.appendChild(skillSetLevel);
     }
