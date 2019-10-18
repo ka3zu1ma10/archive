@@ -17,13 +17,13 @@ const clickMainMenuHandler = function(resp) {
   getActivBodyEl.classList.add('main-body-date--active');
 };
 
-for (let k = 0; k < getMainMenuEls.length; k++) {
-  getMainMenuEls[k].addEventListener('click', clickMainMenuHandler);
-};
+for (let getMainMenuEl of getMainMenuEls) {
+  getMainMenuEl.addEventListener('click', clickMainMenuHandler);
+}
 
 const skillSetCreat = function() {
   const skillSetEl = document.querySelectorAll('.skill-set');
-  for (let l = 0; l < skillSet.length; l++) {
+  for (let skill in skillSet) {
     let skillSetLi = document.createElement('li');
     skillSetLi.classList.add('skill-set_list');
     let skillSetP = document.createElement('p');
@@ -38,7 +38,7 @@ const skillSetCreat = function() {
     let skillSetLevels = document.createElement('ul');
     for (let i = 0; i < 5; i++) {
       let skillSetLevel = document.createElement('li');
-      if (i < skillSet[skillSet[l]].Level) {
+      if (i < skillSet[skill].Level) {
         skillSetLevel.classList.add('fas', 'fa-star', 'skill-level_star-on');
       } else {
         skillSetLevel.classList.add('fas', 'fa-star', 'skill-level_star-off');
