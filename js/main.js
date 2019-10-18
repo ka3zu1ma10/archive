@@ -23,7 +23,7 @@ for (let k = 0; k < getMainMenuEls.length; k++) {
 
 const skillSetCreat = function() {
   const skillSetEl = document.querySelectorAll('.skill-set');
-  for (let l = 0; k < skillSet.length; l++) {
+  for (let l = 0; l < skillSet.length; l++) {
     let skillSetLi = document.createElement('li');
     skillSetLi.classList.add('skill-set_list');
     let skillSetP = document.createElement('p');
