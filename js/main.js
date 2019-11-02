@@ -27,7 +27,7 @@ const skillSetCreat = function() {
     let skillSetLi = document.createElement('li');
     skillSetLi.classList.add('skill-set_list');
     let labelSeal = document.createElement('div');
-    labelSeal.classList.add('skill-label','skill-label_type-'+ skillSet[l].Type);
+    labelSeal.classList.add('skill-label', 'skill-label_type-' + skillSet[l].Type);
     skillSetLi.appendChild(labelSeal);
     let skillSetP = document.createElement('p');
     skillSetP.textContent = skillSet[l].name;
@@ -37,3 +37,14 @@ const skillSetCreat = function() {
 };
 
 skillSetCreat();
+
+let photoElements = document.querySelectorAll('.photos-photolist');
+let j,k = 1;
+for (let i = 0; i < photoElements.length; i++) {
+  if(j === 3){
+    j = 1;
+    k++;
+  }
+  photoElements[i].style.cssText = '-ms-grid-column: ' + j + '; -ms-grid-row: ' + k + ';'
+  j++;
+}

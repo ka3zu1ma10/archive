@@ -35,6 +35,11 @@ var skillSet = [
     'icon': ''
   },
   {
+    'name': 'Vue.js (ちょっとだけ)',
+    'Type': 'Coding',
+    'icon': ''
+  },
+  {
     'name': 'kintone API',
     'Type': 'Coding',
     'icon': ''

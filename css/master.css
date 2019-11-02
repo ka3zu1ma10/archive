@@ -307,8 +307,20 @@ body {
 }
 
 .profile .skill-label {
-  border-radius: 8px;
+  border-radius: 8px 0 0 8px;
   width: 2rem;
+}
+
+.profile .skill-label_type-Design {
+  background-color: #0062c6;
+}
+
+.profile .skill-label_type-Coding {
+  background-color: #f52394;
+}
+
+.profile .skill-label_type-other {
+  background-color: #5B676D;
 }
 
 @media all and (max-width: 981px) {
