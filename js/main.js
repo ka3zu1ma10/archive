@@ -29,18 +29,6 @@ const skillSetCreat = function() {
     let skillSetP = document.createElement('p');
     skillSetP.textContent = skillSet[l].name;
     skillSetLi.appendChild(skillSetP);
-
-    let skillSetLevels = document.createElement('ul');
-    for (let i = 0; i < 5; i++) {
-      let skillSetLevel = document.createElement('li');
-      if (i < skillSet[l].Level) {
-        skillSetLevel.classList.add('fas', 'fa-star', 'skill-level_star-on');
-      } else {
-        skillSetLevel.classList.add('fas', 'fa-star', 'skill-level_star-off');
-      }
-      skillSetLevels.appendChild(skillSetLevel);
-    }
-    skillSetLi.appendChild(skillSetLevels);
     skillSetEl[0].appendChild(skillSetLi);
   }
 };
