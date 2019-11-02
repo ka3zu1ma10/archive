@@ -46,6 +46,7 @@ for (let i = 0; i < photoElements.length; i++) {
     k++;
   }
   let styleText = '-ms-grid-column: ' + j + '; -ms-grid-row: ' + k + ';';
-  photoElements[i].style.cssText = styleText;
+  photoElements[i].setAttribute('style', styleText);
+
   j++;
 }
