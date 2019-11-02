@@ -39,14 +39,20 @@ const skillSetCreat = function() {
 skillSetCreat();
 
 let photoElements = document.querySelectorAll('.photos-photolist');
-let j,k = 1;
+let j = 1;
+let k = 1;
+
+const gridStyle = function(j,i,k){
+  let styleText = '-ms-grid-column: ' + j + '; -ms-grid-row: ' + k + ';';
+  photoElements[i].setAttribute('style', styleText);
+}
+
 for (let i = 0; i < photoElements.length; i++) {
   if(j === 3){
     j = 1;
     k++;
   }
-  let styleText = '-ms-grid-column: ' + j + '; -ms-grid-row: ' + k + ';';
-  photoElements[i].setAttribute('style', styleText);
+  gridStyle(j,i,k)
 
   j++;
-}
+};
