@@ -23,9 +23,19 @@ for (let k = 0; k < getMainMenuEls.length; k++) {
 
 const skillSetCreat = function() {
   const skillSetEl = document.querySelectorAll('.skill-set');
+  let j = 1;
+  let k = 1;
   for (let l = 0; l < skillSet.length; l++) {
+    if (j === 4) {
+      j = 1;
+      k++;
+    }
     let skillSetLi = document.createElement('li');
     skillSetLi.classList.add('skill-set_list');
+    let styleText = '-ms-grid-column: ' + j + '; -ms-grid-row: ' + k + ';';
+    j++;
+    
+    skillSetLi.setAttribute('style', styleText);
     let labelSeal = document.createElement('div');
     labelSeal.classList.add('skill-label', 'skill-label_type-' + skillSet[l].Type);
     skillSetLi.appendChild(labelSeal);
@@ -37,7 +47,6 @@ const skillSetCreat = function() {
 };
 
 let photoElements = document.querySelectorAll('.photos-photolist');
-let skillElements = document.querySelectorAll('.skill-set_list');
 
 const setGridStyle = function(j, i, k, setEls) {
   let styleText = '-ms-grid-column: ' + j + '; -ms-grid-row: ' + k + ';';
@@ -60,4 +69,3 @@ const addStyleGrid = function(setEls,columnNumber) {
 
 skillSetCreat();
 addStyleGrid(photoElements,3);
-addStyleGrid(skillElements,3);
