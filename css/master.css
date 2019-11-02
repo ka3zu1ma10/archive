@@ -291,28 +291,21 @@ body {
 }
 
 .profile .skill-set .skill-set_list {
-  padding: 0.5rem;
-  text-align: center;
   background-color: #fff;
   border-radius: 8px;
   height: auto;
-  min-height: 80px;
   -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
           box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .profile .skill-set .skill-set_list p {
+  margin: 0.5rem;
   font-size: 1.6rem;
 }
 
-.profile .skill-level_star-on {
-  color: orange;
-  font-size: 1.4rem;
-}
-
-.profile .skill-level_star-off {
-  color: #bbb;
-  font-size: 1.4rem;
+.profile .skill-label {
+  border-radius: 8px;
+  width: 2rem;
 }
 
 @media all and (max-width: 981px) {
