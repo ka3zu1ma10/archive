@@ -291,6 +291,9 @@ body {
 }
 
 .profile .skill-set .skill-set_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #fff;
   border-radius: 8px;
   height: auto;
