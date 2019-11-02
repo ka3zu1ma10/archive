@@ -36,23 +36,28 @@ const skillSetCreat = function() {
   }
 };
 
-skillSetCreat();
-
 let photoElements = document.querySelectorAll('.photos-photolist');
-let j = 1;
-let k = 1;
+let skillElements = document.querySelectorAll('.skill-set_list');
 
-const gridStyle = function(j,i,k){
+const setGridStyle = function(j, i, k, setEls) {
   let styleText = '-ms-grid-column: ' + j + '; -ms-grid-row: ' + k + ';';
-  photoElements[i].setAttribute('style', styleText);
-}
-
-for (let i = 0; i < photoElements.length; i++) {
-  if(j === 4){
-    j = 1;
-    k++;
-  }
-  gridStyle(j,i,k)
-
-  j++;
+  setEls[i].setAttribute('style', styleText);
 };
+
+const addStyleGrid = function(setEls,columnNumber) {
+  let j = 1;
+  let k = 1;
+  for (let i = 0; i < setEls.length; i++) {
+    if (j === (columnNumber +1)) {
+      j = 1;
+      k++;
+    }
+    setGridStyle(j, i, k, setEls);
+
+    j++;
+  };
+};
+
+skillSetCreat();
+addStyleGrid(photoElements,3);
+addStyleGrid(skillElements,3);
