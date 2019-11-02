@@ -48,7 +48,7 @@ const gridStyle = function(j,i,k){
 }
 
 for (let i = 0; i < photoElements.length; i++) {
-  if(j === 3){
+  if(j === 4){
     j = 1;
     k++;
   }
