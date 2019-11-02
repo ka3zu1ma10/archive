@@ -26,6 +26,8 @@ const skillSetCreat = function() {
   for (let l = 0; l < skillSet.length; l++) {
     let skillSetLi = document.createElement('li');
     skillSetLi.classList.add('skill-set_list');
+    let labelSeal = document.createElement('div');
+    labelSeal.classList.add('skill-label','skill-label_type-'+ skillSet[l].Type);
     let skillSetP = document.createElement('p');
     skillSetP.textContent = skillSet[l].name;
     skillSetLi.appendChild(skillSetP);

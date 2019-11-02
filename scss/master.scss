@@ -261,28 +261,22 @@ body {
 
 
     .skill-set_list {
-    padding: 0.5rem;
-    text-align: center;
     background-color: #fff;
     border-radius: 8px;
     height: auto;
-    min-height: 80px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
     p {
+      margin: 0.5rem;
       font-size: 1.6rem;
     }
     }
   }
-  .skill-level {
-    &_star-on {
-      color: orange;
-      font-size: 1.4rem;
-    }
-    &_star-off {
-      color: #bbb;
-      font-size: 1.4rem;
-    }
+  .skill-label {
+    border-radius: 8px;
+    width: 2rem;
+
   }
+
   @media all and (max-width: 981px) {
     .profile_works p {
       font-size: 0.6em;

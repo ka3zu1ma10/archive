@@ -1,47 +1,47 @@
 var skillSet = [
   {
     'name': 'Adobe Illustrator',
-    'Level': 3,
+    'Type': 'Design',
     'icon': ''
   },
   {
     'name': 'Adobe Photoshop',
-    'Level': 2,
+    'Type': 'Design',
     'icon': ''
   },
   {
     'name': 'Adobe XD',
-    'Level': 5,
+    'Type': 'Design',
     'icon': ''
   },
   {
     'name': 'Adobe Lightroom',
-    'Level': 2,
+    'Type': 'Design',
     'icon': ''
   },
   {
     'name': 'HTML',
-    'Level': 4,
+    'Type': 'Coding',
     'icon': ''
   },
   {
     'name': 'css',
-    'Level': 3,
+    'Type': 'Coding',
     'icon': ''
   },
   {
     'name': 'JavaScript',
-    'Level': 2,
+    'Type': 'Coding',
     'icon': ''
   },
   {
     'name': 'kintone API',
-    'Level': 4,
+    'Type': 'Coding',
     'icon': ''
   },
   {
     'name': 'NIKON D5500',
-    'Level': 4,
+    'Type': 'other',
     'icon': ''
   }
 ];
