@@ -6,6 +6,7 @@
   <title>Kazuma Saitoh</title>
   <link rel="stylesheet" href="./css/ress.css">
   <link rel="stylesheet" href="./css/master.css">
+  <link rel="stylesheet" href="./css/profile.css">
   <link rel="stylesheet" href="./css/lightbox.css">
   <link href="https://fonts.googleapis.com/css?family=Play:400,700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/7d6d95fc57.js" crossorigin="anonymous"></script>
