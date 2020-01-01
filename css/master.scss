@@ -76,22 +76,21 @@ body {
   }
   #menu-area{
     height: auto;
-  }
-
-  #main-header {
-    width: auto;
-  }  
-  #main-menu {
-    height: 5vh;
-
-    .menu-lists {
-      list-style: none;
-      display: flex;
-
-      .menu-list {
-        &_button {
-          text-align: center;
-          margin-right: 2rem;
+    #main-header {
+      width: auto;
+    }  
+    #main-menu {
+      height: 4vh;
+  
+      .menu-lists {
+        list-style: none;
+        display: flex;
+  
+        .menu-list {
+          &_button {
+            text-align: center;
+            margin-right: 2rem;
+          }
         }
       }
     }

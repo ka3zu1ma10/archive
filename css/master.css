@@ -73,17 +73,17 @@ body {
   #menu-area {
     height: auto;
   }
-  #main-header {
+  #menu-area #main-header {
     width: auto;
   }
-  #main-menu {
-    height: 5vh;
+  #menu-area #main-menu {
+    height: 4vh;
   }
-  #main-menu .menu-lists {
+  #menu-area #main-menu .menu-lists {
     list-style: none;
     display: flex;
   }
-  #main-menu .menu-lists .menu-list_button {
+  #menu-area #main-menu .menu-lists .menu-list_button {
     text-align: center;
     margin-right: 2rem;
   }
