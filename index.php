@@ -15,10 +15,10 @@
 <!-- まだまだ制作途中ですが、少しづつ進化していけたらと思っています。 -->
 
 <body>
-  <header id="main-header">
-    <h1>Kazuma Saitoh</h1>
-  </header>
-  <main id="main-area">
+  <div id="menu-area">
+    <header id="main-header">
+      <h1>Kazuma Saitoh</h1>
+    </header>
     <menu id="main-menu">
       <ul class="menu-lists">
         <li><button class="menu-list_button menu-list_button__active" type="button" name="button" value="wellcom">WELLCOM</button></li>
@@ -27,6 +27,8 @@
         <li><button class="menu-list_button" type="button" name="button" value="aboutme">ABOUT ME</button></li>
       </ul>
     </menu>
+  </div>
+  <main id="main-area">
     <article id="main-body">
       <div id="main-body-date-wellcom" class="main-body-date main-body-date--active">
         <?php include ('wellcom.html'); ?>
