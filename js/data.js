@@ -25,7 +25,7 @@ var skillSet = [
     'icon': ''
   },
   {
-    'name': 'css',
+    'name': 'CSS',
     'Type': 'Coding',
     'icon': ''
   },
@@ -35,7 +35,7 @@ var skillSet = [
     'icon': ''
   },
   {
-    'name': 'Vue.js (ちょっとだけ)',
+    'name': 'Vue.js',
     'Type': 'Coding',
     'icon': ''
   },
