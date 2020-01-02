@@ -213,3 +213,7 @@ body {
   width: auto;
   height: 100%;
 }
+
+.twitter-timeline {
+  max-width: 300px;
+}
