@@ -112,66 +112,6 @@ body {
 
 #main-body #wellcom {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  height: 90vh;
-  width: 100%;
-}
-
-#main-body #wellcom.main-body--noneactiv {
-  display: none;
-}
-
-#main-body #wellcom .follow-list {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-top: 2vw;
-  display: flex;
-  justify-content: center;
-  color: White;
-}
-
-#main-body #wellcom .follow-list li {
-  padding: 1rem;
-  margin: 0 3vw;
-  text-align: center;
-  width: 16rem;
-  height: 6rem;
-  border-radius: 0.5rem;
-}
-
-#main-body #wellcom .follow-list li:focus, #main-body #wellcom .follow-list li:hover {
-  filter: grayscale(100%);
-}
-
-#main-body #wellcom .follow-list .follow-twitter {
-  background-color: #00acee;
-}
-
-#main-body #wellcom .follow-list .follow-twitter .twitter-icon {
-  width: 4rem;
-}
-
-#main-body #wellcom .follow-list .follow-facebook {
-  background-color: #3b5998;
-}
-
-#main-body #wellcom .follow-list .follow-facebook .facebook-icon {
-  width: 2.6rem;
-}
-
-#main-body #wellcom .follow-list a {
-  text-decoration: none;
-  color: White;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#main-body #wellcom .follow-list p {
-  margin-right: 0;
-  margin-left: auto;
 }
 
 #main-body #photos {
